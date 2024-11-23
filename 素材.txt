@@ -1,0 +1,16 @@
+深色背景色：212529
+黄色：#ffc107
+蓝色：#0d6efd
+浅灰：#dee2e6
+深灰：#6c757
+
+免费矢量图
+https://www.svgrepo.com/
+https://undraw.co/illustrations
+免费位图
+www.splash.com
+示例页面请访问
+https://firstbootstrap-demo-0chj2cbdb0db-1320773311.tcloudbaseapp.com/bootstrap.html
+或者
+https://miss-js.github.io/monday/bootstrap.html
+

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: "Microsoft YaHei";
+        }
+        #top{
+            background-color: #212529;
+            width: auto;
+            color:white;
+            display: flex;
+            line-height: 50px;
+            justify-content: space-between;
+            padding: 10px 120px;
+        }
+        #top ul{
+            display: flex;
+            list-style-type: none;
+        }
+        #top ul li{
+            margin-right: 10px;
+            color:#ddd;
+            font-size: 20px;
+        }
+        #main{
+            background-color: #212529;
+            display: flex;
+            width:100%;
+        }
+        #main-left{
+            width:65%;
+            margin-left: 120px;
+            margin-top: 350px;
+        }
+        #main-left h2{
+            color: white;
+            font-size: 40px;
+        }
+        #main-left p{
+            font-size:25px;
+            color: white;
+            padding: 15px 0;
+        }
+        #main-left span{
+            color: #ffc107;
+        }
+        #main-left button{
+            color: white;
+            background-color: #0d6efd;
+            padding: 10px 20px;
+            font-size: 20px;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+        #main-right{
+            width:60%;
+            margin-right: 100px;
+        }
+        #three{
+            display: flex;
+            margin-top: 50px; 
+            text-align: center;
+            padding: 0 100px;
+        }
+        #three>div{
+            padding: 10px 30px;
+            width: 33.33%;
+        }
+        #le{
+            background-color: #212529;
+            margin-right: 50px;
+        }
+        #le h2,#cen h2,#rig h2{
+            font-size: 30px;
+            color: white;
+        }
+        #le p,#cen p,#rig p{
+            font-size: 20px;
+            color: white;
+        }
+        #cen{
+            background-color: #6c757d;
+            margin-right: 50px;
+        }
+        #rig{
+            background-color: #212529;
+        }
+        #le a,#rig a{
+            text-decoration: none;
+            background-color: #0d6efd;
+            color: white;
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+        #cen a{
+            text-decoration: none;
+            background-color: #212529;
+            color: white;
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+        @media(max-width:720px){
+            #main{
+                flex-direction: column;
+            }
+            #main-right img{
+            margin-left: 100px;
+            width:120%;
+            }
+            #top{
+                flex-direction: column;
+            }
+            #top ul{
+                margin-left: 100px;
+                margin-right: 0;
+                flex-direction: column;
+            }
+        }
+        @media(max-width:840px){
+            #three{
+                flex-direction: column;
+            }
+            #three>div{
+                width: auto;
+            }
+            #le,#cen{
+                margin-right: 0;
+                margin-bottom: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="top">
+        <h2>Wuopft Gfyop</h2>
+        <ul>
+            <li>Learning</li>
+            <li>questions</li>
+            <li>instructor</li>
+            <li>contact us</li>
+        </ul>
+    </div>
+    <div id="main">
+        <div id="main-left">
+            <h2>becom  a Web <span>Developer</span></h2>  
+            <p>Everyone has unique strengths and expertise, and it is this diversity that makes up the core competencies of our group.
+                . </p>
+            <button>start enrollment</button>
+        </div>
+        <div id="main-right">
+            <img src="./family-confirming-evacuation-site-svgrepo-com.svg" alt="" width="100%">
+        </div>
+    </div>
+    <div id="three">
+        <div id="le">
+            <h2>virtual</h2>
+            <p>The page layout is reasonable and the information classification is clear, which is convenient for users to find what they need quickly. On the home page, you can see the school emblem, school name and navigation menu, including "school profile", "department settings", "education and teaching", "scientific research", "enrollment and employment" and other major columns, covering all aspects of the school..</p>
+            <a href="#">read more</a>
+        </div>
+        <div id="cen">
+            <h2>Hybird</h2>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur itaque quasi molestias maiores magni asperiores.</P>
+            <a href="#">read more</a>
+        </div>
+        <div id="rig">
+            <h2>In person</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur itaque quasi molestias maiores magni asperiores.</p>
+            <a href="#">read more</a>
+        </div>
+    </div>
+</body>
+</html>
